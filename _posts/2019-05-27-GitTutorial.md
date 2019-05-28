@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Git教程"
-date: 2016-07-13   
+date: 2019-05-27
 tag: 工具 
 ---
 
@@ -67,4 +67,4 @@ git branc 查看时如出现
 
 <br>
 
- 内容来自[潘柏信的博客](http://baixin) » [点击阅读原文](http://baixin.io/2016/07/GitTutorial/)
+ 内容转自[潘柏信的博客](http://baixin) » [点击阅读原文](http://baixin.io/2016/07/GitTutorial/)

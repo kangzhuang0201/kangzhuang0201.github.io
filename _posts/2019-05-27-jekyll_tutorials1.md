@@ -99,7 +99,7 @@ so easy !
 ---
 layout: post
 title:  "Welcome to Jekyll!"
-date:   2016-10-16 11:29:08 +0800
+date:   2019-05-27 11:29:08 +0800
 categories: jekyll update
 ---
 
@@ -278,7 +278,7 @@ Configuration file: /Users/baixinpan/Desktop/OpenSource/Mine/Page-Blog/leopardpa
 > 问题：最近很多朋友使用我的模板报警告：The CNAME `baixin.io` is already taken 
 > 解决：把CNAME里面的baixin.io修改成你自己的域名，如果你暂时没有域名，CNAME里面就什么都不用谢。（之前没人反馈过这个问题，应该是github page最近才最的限制。）
 
-内容来自[潘柏信的博客](http://baixin) » [点击阅读原文](http://baixin.io/2016/07/GitTutorial/)
+内容转自[潘柏信的博客](http://baixin) » [点击阅读原文](http://baixin.io/2016/07/GitTutorial/)
 
 
 

@@ -77,4 +77,4 @@ HEXO接近是最近有一些朋友提出的问题，然后我做了总结，如�
 [解决 Github Pages 禁止百度爬虫的方法与可行性分析](http://jerryzou.com/posts/feasibility-of-allowing-baiduSpider-for-Github-Pages/)
 
 <br>
-内容来自[潘柏信的博客](http://baixin) » [点击阅读原文](http://baixin.io/2016/07/GitTutorial/)
+内容转自[潘柏信的博客](http://baixin) » [点击阅读原文](http://baixin.io/2016/07/GitTutorial/)
