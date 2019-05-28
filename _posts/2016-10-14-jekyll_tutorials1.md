@@ -1,14 +1,9 @@
 ---
 layout: post
 title: Jekyll搭建个人博客
-date: 2016-10-14 
+date: 2019-05-27
 tags: 博客   
 ---
-
-　之前写了一篇[HEXO搭建个人博客](http://baixin.io/2015/08/HEXO%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/)的教程获得了很好评，尤其是在[简书](http://www.jianshu.com/p/465830080ea9)上目前已经累积了10W+的阅读量了，也有好心的读者主动给我打赏，在此感谢。
-
-　如果你看过我的文章会发现我现在的博客样式跟之前是有很大的区别的，之前我也是使用 HEXO 搭建的博客，后来发现使用 HEXO 在多台电脑上发布博客，操作起来并不是那么方便，果断就转到了 Jekyll 上，接下来我会讲如何使用 Jekyll 搭建博客，[博客模板效果](http://baixin.io/#blog)。
-
 
 ### 介绍
 
@@ -283,7 +278,7 @@ Configuration file: /Users/baixinpan/Desktop/OpenSource/Mine/Page-Blog/leopardpa
 > 问题：最近很多朋友使用我的模板报警告：The CNAME `baixin.io` is already taken 
 > 解决：把CNAME里面的baixin.io修改成你自己的域名，如果你暂时没有域名，CNAME里面就什么都不用谢。（之前没人反馈过这个问题，应该是github page最近才最的限制。）
 
-
+内容来自[潘柏信的博客](http://baixin) » [点击阅读原文](http://baixin.io/2016/07/GitTutorial/)
 
 
 
