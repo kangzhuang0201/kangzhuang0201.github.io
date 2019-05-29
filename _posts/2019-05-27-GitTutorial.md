@@ -9,7 +9,7 @@ tag: 工具
 
 　　Git是做项目的版本管理，你也可以称它们为版本管理工具。假如现在你有一个文件夹，里面可以是项目，也可以是你的个人笔记(如我这个博客)，或者是你的简历、毕业设计等等，都可以使用git来管理。
 
-　　目前常用的版本控制器有Git和SVN，即使这两个你没有全用过，至少也会听过，我这里以Git为例，个人比较喜欢Git，你也可以看看这篇文章：[为什么Git比SVN好](http://www.worldhello.net/2012/04/12/why-git-is-better-than-svn.html)。我使用的是Mac，Mac上没自带Git环境，但是作为iOS开发者，我安装Xcode的时候，Xcode里是有自带Git的，所以我不需要考虑怎么去安装Git了。          
+　　目前常用的版本控制器有Git和SVN，即使这两个你没有全用过，至少也会听过，我这里以Git为例，个人比较喜欢Git，你也可以看看这篇文章：[为什么Git比SVN好](http://www.worldhello.net/2012/04/12/why-git-is-better-than-svn.html)。
 
 ### 安装Git
 
@@ -24,6 +24,8 @@ tag: 工具
 
 > 从[https://git-for-windows.github.io](https://git-for-windows.github.io) 下载，然后按默认选项安装即可，安装完成后，在开始菜单里找到“Git”->“Git Bash”，蹦出一个类似命令行窗口的东西，就说明Git安装成功！
 
+**在Ubuntu 上安装Git**
+　　sudo apt-get install git命令进行安装
 
 ### 配置Git      
 
@@ -54,15 +56,40 @@ tag: 工具
 >* git commit -m ' first commit'  （提交暂存区的记录到本地仓库）     
 
 
-### 其它   
+### 下载代码
 
-git branc 查看时如出现
+  1.命令代码
+    >*git clone https://github.com/*****/****.git
+  2.通过ssh下载则需要配置ssh 秘钥, 生成SSH密钥过程：
+    >* 1.查看是否已经有了ssh密钥：cd ~/.ssh
+    >* 如果没有密钥则不会有此文件夹，有则备份删除
+    >* 2.生存密钥(切记要加你公司的邮箱)：
+    >* ssh-keygen -t rsa -C "YourName@example.com" 按3个回车，密码为空。 最后得到了两个文件：id_rsa和id_rsa.pub
+    >* 查看id_rsa.pub公钥 (linux下)cat ~/.ssh/id_rsa.pub, 打开id_rsa.pub文件，并且复制全部内容。
+    >* 3.打开GitLab账户，打开SSH Keys:
+    >* 将刚刚复制的内容添加到Key的文本域中，然后点击Add key, 这样就添加了一个SSH key
+  3.IDEA下载代码
+    >* VCS--> Checkout from Version Control -->Git
+### 开发常用命令
+1.列出所有分支
+ git branch
 
->*  (HEAD detached at analytics_v2)   
->*  dev
->*  master
+ 出现如下:
+ >*  (HEAD detached at analytics_v2)
+ >*  dev
+ >*  master
+2.创建新的"footer-fix"分支
+ >* git branch footer-fix
 
-代表现在已经进入一个临时的HEAD，可以使用 `git checkout -b temp` 创建一个 temp branch，这样临时HEAD上修改的东西就不会被丢掉了。
-然后切换到 dev 分支上，在使用 git branch merge temp，就可以把 temp 分支上的代码合并到 dev 上了。
+删除"footer-fix"分支
+ >* git branch -d footer-fix
 
-<br>
+3.切换到新分支
+ >* git checkout footer-fix
+
+4.切换到主干master,合并分支
+ >* git checkout master
+ >* git merge branchName
+
+5.查看配置的信息
+ >* git config --list
