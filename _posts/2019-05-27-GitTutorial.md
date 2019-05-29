@@ -44,32 +44,53 @@ tag: 工具
 
 ### 开始使用-建立仓库：
 
-你在目标文件夹下使命令：    
+一.登陆自己的github账号
 
->* git init  （创建.git文件）      
+二.点击new repository进行创建一个新的仓库，用来存放自己的项目;然后会有一个url如：
+>* https://github.com/你的用户名/你的项目名.git
+三.也是最重要的部分，用命令将项目上传；
 
-就会创建一个 `.git` 隐藏文件，相当于已经建立了一个本地仓库。
+1.启动git-cmd.exe  cd 到上传项目的根目录下，然后初始化本地仓库，
+>* cd /d D:\idea_project_workspace\springmvcDemo
+>* git init
 
-**添加到暂存区：**      
+2.添加当前工作目录文件到index，添加管理，
 
->* git add .   （全部添加到暂存区）    
->* git commit -m ' first commit'  （提交暂存区的记录到本地仓库）     
+>* git add .(记得有个点哦，并且和add之间有空格)
 
+3.查看一下当前目录所有没有被git管理的文件以及被git管理并且被修改但是还没有提交的文件，
+
+>* git status       （若出现了很多红色文件，那么就需要再次进行2的步骤，git add .直到没有问题。）
+
+4.提交文件，把本地仓库暂存区的文件提交到本地仓库。
+
+>* git commit -m "message"       其中message就是你提交文件时候的备注。以便知道本次提交是什么作用……
+
+5.关联远程仓库，其中origin后跟的是，远程仓库的别名。
+>* git remote add origin https://github.com/用户名/helloworld.git
+	提示出错信息：fatal: remote origin already exists.
+    解决办法如下：
+    ①先输入$ git remote rm origin
+    ②再输入$ git remote add origin https://github.com/用户名/helloworld.git 就不会报错了！
+
+6.push文件。
+
+>* git push -u origin master
 
 ### 下载代码
 
-  1.命令代码
-    >*git clone https://github.com/*****/****.git
-  2.通过ssh下载则需要配置ssh 秘钥, 生成SSH密钥过程：
-    >* 1.查看是否已经有了ssh密钥：cd ~/.ssh
-    >* 如果没有密钥则不会有此文件夹，有则备份删除
-    >* 2.生存密钥(切记要加你公司的邮箱)：
-    >* ssh-keygen -t rsa -C "YourName@example.com" 按3个回车，密码为空。 最后得到了两个文件：id_rsa和id_rsa.pub
-    >* 查看id_rsa.pub公钥 (linux下)cat ~/.ssh/id_rsa.pub, 打开id_rsa.pub文件，并且复制全部内容。
-    >* 3.打开GitLab账户，打开SSH Keys:
-    >* 将刚刚复制的内容添加到Key的文本域中，然后点击Add key, 这样就添加了一个SSH key
-  3.IDEA下载代码
-    >* VCS--> Checkout from Version Control -->Git
+1.命令下载代码
+ >*  git clone https://github.com/*****/****.git
+2.通过ssh下载则需要配置ssh 秘钥, 生成SSH密钥过程：
+ >*  1.查看是否已经有了ssh密钥：cd ~/.ssh
+ >*  如果没有密钥则不会有此文件夹，有则备份删除
+ >*  2.生存密钥(切记要加你公司的邮箱)：
+ >*  ssh-keygen -t rsa -C "YourName@example.com" 按3个回车，密码为空。 最后得到了两个文件：id_rsa和id_rsa.pub
+ >*  查看id_rsa.pub公钥 (linux下)cat ~/.ssh/id_rsa.pub, 打开id_rsa.pub文件，并且复制全部内容。
+ >*  3.打开GitLab账户，打开SSH Keys:
+ >*  将刚刚复制的内容添加到Key的文本域中，然后点击Add key, 这样就添加了一个SSH key
+3.IDEA下载代码
+>* VCS--> Checkout from Version Control -->Git
 ### 开发常用命令
 1.列出所有分支
  git branch
