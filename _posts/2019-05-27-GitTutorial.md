@@ -90,7 +90,7 @@ tag: 工具
 2.通过ssh下载则需要配置ssh 秘钥, 生成SSH密钥过程：
  >*  1.查看是否已经有了ssh密钥：cd ~/.ssh
  >*  如果没有密钥则不会有此文件夹，有则备份删除
- >*  2.生存密钥(切记要加你公司的邮箱)：
+ >*  2.生成密钥(切记要加你公司的邮箱)：
  >*  ssh-keygen -t rsa -C "YourName@example.com" 按3个回车，密码为空。 最后得到了两个文件：id_rsa和id_rsa.pub
  >*  查看id_rsa.pub公钥 (linux下)cat ~/.ssh/id_rsa.pub, 打开id_rsa.pub文件，并且复制全部内容。
  >*  3.打开GitLab账户，打开SSH Keys:
