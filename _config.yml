@@ -28,12 +28,12 @@ social:
 # 百度统计 
 # 使用博客模板请去掉或者更换 id 
 baidu:
-    id: xxxx  
+    id: kz_baidu_tongji
 
 # Google Analytics
 # 使用博客模板请去掉或者更换 id
 ga:
-    id: xxxx  
+    id: kz_Google_tongji
     host: auto  
 
 # 《----------------- 上面的信息修改成你自己的 ---------------------------》
