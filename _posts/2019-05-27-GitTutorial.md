@@ -45,9 +45,12 @@ tag: 工具
 ### 开始使用-建立仓库：
 
 一.登陆自己的github账号
+>* https://github.com/
 
 二.点击new repository进行创建一个新的仓库，用来存放自己的项目;然后会有一个url如：
+
 >* https://github.com/你的用户名/你的项目名.git
+
 三.也是最重要的部分，用命令将项目上传；
 
 1.启动git-cmd.exe  cd 到上传项目的根目录下，然后初始化本地仓库，
@@ -81,6 +84,7 @@ tag: 工具
 
 1.命令下载代码
  >*  git clone https://github.com/*****/****.git
+ 
 2.通过ssh下载则需要配置ssh 秘钥, 生成SSH密钥过程：
  >*  1.查看是否已经有了ssh密钥：cd ~/.ssh
  >*  如果没有密钥则不会有此文件夹，有则备份删除
@@ -89,8 +93,10 @@ tag: 工具
  >*  查看id_rsa.pub公钥 (linux下)cat ~/.ssh/id_rsa.pub, 打开id_rsa.pub文件，并且复制全部内容。
  >*  3.打开GitLab账户，打开SSH Keys:
  >*  将刚刚复制的内容添加到Key的文本域中，然后点击Add key, 这样就添加了一个SSH key
+
 3.IDEA下载代码
 >* VCS--> Checkout from Version Control -->Git
+
 ### 开发常用命令
 1.列出所有分支
  git branch
