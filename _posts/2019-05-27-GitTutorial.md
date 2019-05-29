@@ -84,7 +84,7 @@ tag: 工具
 
 注意
 
->* 使用git extension 拉取或者push代码，提示
+>* 如果使用git extension 拉取或者push代码，提示
 >* "C:\Program Files\Git\bin\git.exe" pull --progress "origin" +refs/heads/zjw
 >* fatal: unable to access 'https://github.com/**/': error setting certificate verify locations:
 >* CAfile: C:/Program Files/Git/mingw64/libexec/ssl/certs/ca-bundle.crt
