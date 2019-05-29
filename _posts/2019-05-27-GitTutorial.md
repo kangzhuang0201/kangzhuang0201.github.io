@@ -73,14 +73,32 @@ tag: 工具
 
 5.关联远程仓库，其中origin后跟的是，远程仓库的别名。
 >* git remote add origin https://github.com/用户名/helloworld.git
-	提示出错信息：fatal: remote origin already exists.
-    解决办法如下：
-    ①先输入$ git remote rm origin
-    ②再输入$ git remote add origin https://github.com/用户名/helloworld.git 就不会报错了！
+>* 提示出错信息：fatal: remote origin already exists.
+>* 解决办法如下：
+>*   ①先输入$ git remote rm origin
+>*   ②再输入$ git remote add origin https://github.com/用户名/helloworld.git 就不会报错了！
 
 6.push文件。
 
 >* git push -u origin master
+
+注意
+
+>* 使用git extension 拉取或者push代码，提示
+>* "C:\Program Files\Git\bin\git.exe" pull --progress "origin" +refs/heads/zjw
+>* fatal: unable to access 'https://github.com/**/': error setting certificate verify locations:
+>* CAfile: C:/Program Files/Git/mingw64/libexec/ssl/certs/ca-bundle.crt
+>* CApath: none
+>* Done
+>* Press Enter or Esc to close console...
+>* 这是因为git 提交代码时需要安全认证，可以通过以下方法设置，取消验证
+>* 解决：
+>* 找到 git的config 配置文件，路径应该在
+>* C:\ProgramData\Git\config ，添加下面两行
+>* [http]
+>*     sslVerify = false
+>*     sslCAinfo = /bin/curl-ca-bundle.crt
+>* 保存后，再提交代码就可以了。
 
 ### 下载代码
 
