@@ -36,14 +36,11 @@ Jekyll 需要依赖：Ruby、bundler
 >* 如果你想使用我的模板，请把 _posts/ 目录下的文章都去掉。
 >* 修改 _config.yml 文件里面的内容为你自己的个人信息。
 
-如果在部署博客的时候发现问题，可以直接在[Issues](https://github.com/leopardpan/leopardpan.github.io/issues)里面提问。        
-
 
 ### 把这个博客变成你自己的博客
 
 根据上面【提示】修改过后，在你的github里创建一个username.github.io的仓库，username指的值你的github的用户名。      
 创建完成后，把我的这个模板使用git push到你的username.github.io仓库下就行了。
-搭建博客如果遇到问题可以看看我教程[Jekyll搭建个人博客](http://baixin.io/2016/10/jekyll_tutorials1/)。
 
 
 ### 效果预览
