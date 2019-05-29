@@ -25,7 +25,7 @@ tag: 工具
 > 从[https://git-for-windows.github.io](https://git-for-windows.github.io) 下载，然后按默认选项安装即可，安装完成后，在开始菜单里找到“Git”->“Git Bash”，蹦出一个类似命令行窗口的东西，就说明Git安装成功！
 
 **在Ubuntu 上安装Git**
-　　sudo apt-get install git命令进行安装
+> sudo apt-get install git命令进行安装
 
 ### 配置Git      
 
@@ -105,10 +105,11 @@ tag: 工具
  >*  (HEAD detached at analytics_v2)
  >*  dev
  >*  master
+
 2.创建新的"footer-fix"分支
  >* git branch footer-fix
 
-删除"footer-fix"分支
+ >* 删除"footer-fix"分支
  >* git branch -d footer-fix
 
 3.切换到新分支
