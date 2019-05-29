@@ -40,7 +40,7 @@ tag: 工具
 
 "email@example.com"： 是你远端仓库的email       
 
---global：用了这个参数，表示你这台机器上所有的Git仓库都会使用这个配置，当然我们也可以对某个仓库指定不同的用户名和Email地址。         
+--global(global前面是两条-)：用了这个参数，表示你这台机器上所有的Git仓库都会使用这个配置，当然我们也可以对某个仓库指定不同的用户名和Email地址。
 
 
 
@@ -122,4 +122,4 @@ tag: 工具
  >* git merge branchName
 
 6.查看配置的信息
- >* git config --list
+ >* git config --list (list前面是两条-)
