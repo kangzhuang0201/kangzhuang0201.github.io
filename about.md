@@ -19,7 +19,8 @@ title: 关于我
 <p>
 如果你觉着我整理的有些文章还不错, 也可以小小的打赏一下, 算是对我小小的鼓励
 <p> 
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="600" height="330" src="http://music.163.com/outchain/player?type=0&id=572758458&auto=1&height=430"></iframe>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=570427731&auto=1&height=66"></iframe> 
+
 
 {% include comments.html %}
 
