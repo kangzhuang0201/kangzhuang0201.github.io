@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Git教程"
+title: "Git基本操作教程"
 date: 2019-05-27
 tag: 工具 
 ---
