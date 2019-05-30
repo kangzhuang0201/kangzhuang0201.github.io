@@ -19,7 +19,7 @@ title: 关于我
 <p>
 如果你觉着我整理的有些文章还不错, 也可以小小的打赏一下, 算是对我小小的鼓励
 <p> 
-<object width="340" height="86" data="http://music.163.com/style/swf/widget.swf?sid=546372110&type=2&auto=0&width=320&height=66" type="application/x-shockwave-flash"></object> 
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="600" height="330" src="http://music.163.com/outchain/player?type=0&id=572758458&auto=1&height=430"></iframe>
 
 {% include comments.html %}
 
