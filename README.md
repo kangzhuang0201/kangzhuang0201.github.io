@@ -48,8 +48,6 @@ Jekyll 需要依赖：Ruby、bundler
 如果你只想要我博客里的头像效果，你只需要拿 kangzhuang0201.github.io/_includes/side-panel.html 文件里面 `头像效果` 和 kangzhuang0201.github.io/css/main.css 里面最后面 `头像效果` 部分就行了。
 
 
-***
-
 
 ***  
 
