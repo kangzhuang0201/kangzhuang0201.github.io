@@ -20,7 +20,7 @@ Jekyll 需要依赖：Ruby、bundler
 
 #### 获取博客模板
 
-进leopardpan.github.io/ 目录下， 开启本地服务 
+进kangzhuang0201.github.io/ 目录下， 开启本地服务
 
 > $ jekyll server
 
@@ -43,9 +43,9 @@ Jekyll 需要依赖：Ruby、bundler
 
 #### 头像效果
 
-![](/images/readme//icon.gif)
+![](/images/readme//icon.png)
 
-如果你只想要我博客里的头像效果，你只需要拿 leopardpan.github.io/_includes/side-panel.html 文件里面 `头像效果` 和 leopardpan.github.io/css/main.css 里面最后面 `头像效果` 部分就行了。
+如果你只想要我博客里的头像效果，你只需要拿 kangzhuang0201.github.io/_includes/side-panel.html 文件里面 `头像效果` 和 kangzhuang0201.github.io/css/main.css 里面最后面 `头像效果` 部分就行了。
 
 
 ***
