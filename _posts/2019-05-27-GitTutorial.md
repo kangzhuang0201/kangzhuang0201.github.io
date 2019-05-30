@@ -47,7 +47,7 @@ tag: 工具
 ### 开始使用-建立仓库：
 
 一.登陆自己的github账号
->* https://github.com/
+>* [https://github.com](https://github.com)
 
 二.点击new repository进行创建一个新的仓库，用来存放自己的项目;然后会有一个url如：
 
