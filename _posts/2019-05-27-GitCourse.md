@@ -154,4 +154,4 @@ tag: 工具
 
 ### 查询 github 最佳访问 ip
 
- >* [github.global.ssl.fastly.net](github.global.ssl.fastly.net)
+ >* 访问github.global.ssl.fastly.net
