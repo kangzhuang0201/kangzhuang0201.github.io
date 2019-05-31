@@ -148,6 +148,6 @@ tag: 工具
 6.查看配置的信息
  >* git config --list (list前面是两条-)
 
-### 查看你github的IP地址
+### 查看你github的ip地址
 
  >* ping github.io
