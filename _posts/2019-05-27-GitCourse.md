@@ -151,3 +151,7 @@ tag: 工具
 ### 查看你github的ip地址
 
  >* ping github.io
+
+### 查询 github 最佳访问 ip
+
+ >* [github.global.ssl.fastly.net](github.global.ssl.fastly.net)
