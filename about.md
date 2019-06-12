@@ -20,7 +20,7 @@ title: 关于我
 如果你觉着我整理的有些文章还不错, 也可以小小的打赏一下, 算是对我小小的鼓励!
 <p> 
 
-<h3> 送你一首音乐 </h3>
+
 
 <iframe  style= "display:none " frameborder="no" border="0" marginwidth="0" marginheight="0" width="auto" height="52" src="//music.163.com/outchain/player?type=2&id=406000649&auto=1&height=32"></iframe>
 
